@@ -21,9 +21,21 @@
 
 1. Clone the repository:
 
-```bash
-git clone git@github.com:srujanachalluri/mood_theme_switcher.git
-cd mood_theme_switcher
-open index.html file into your browser
+  bash
+  git clone git@github.com:srujanachalluri/mood_theme_switcher.git
+  cd mood_theme_switcher
+  
+  Open index.html in your browser.
 
-Created by Srujana Challuri
+That’s it! 🎉
+
+📌 Features
+Click a button to switch between moods
+
+Smooth color transitions
+
+Responsive design
+
+🙌 Author
+Srujana Challuri
+

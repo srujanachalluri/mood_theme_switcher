@@ -1,0 +1,65 @@
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  padding: 2rem;
+  transition: background 0.3s yellow, color 0.3s pink;
+  font-size: 25px;
+}
+
+.header {
+  font-size: 2.5rem;
+  color: #171616;
+  text-align: center;
+  text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 20px #654c65,
+               0 0 30px #53c4d5,
+               0 0 40px #2c233d,
+               0 0 50px #ff00ff,
+               0 0 60px #82b132;
+  animation: glow 2s infinite alternate;
+}
+
+.blog-posts {
+  margin-top: 20px;
+}
+
+.post {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 30px;
+  background-color: #4093a8
+}
+
+body.happy {
+  background-color: #dbdaa1;
+  color: #333333;
+  font-family: 'Arial', cursive;
+  font-size: 20px;
+}
+
+body.sad {
+  background-color: #5e4d94;
+  color: #040505;
+  font-size: 20px;
+}
+
+body.chill {
+  background: linear-gradient(to right, #d69f96, #8e4565);
+  color: #0b0a0a;
+  font-size: 20px;
+}
+
+body.angry {
+  background: linear-gradient(to right, #b2321e, #bb5826);
+  color: #0b0a0a;
+  font-size: 20px;
+}
+
+.thank-you {
+  text-align: right;
+  font-size: 25px;
+  color: #8e4565;
+  font-weight: 100;
+  background: linear-gradient(to right, transparent 60%, #f5c7f7 60%);
+  animation: glow 2s infinite
+}
